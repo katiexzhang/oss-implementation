@@ -1,12 +1,9 @@
-##### build the project
+##### Cloud Deploy Starter Project - OSS Implementation
 
-    ./gradlew build
-
-##### build Docker image called java-app. Execute from root
-
-    docker build -t java-app .
-    
-##### push image to repo 
-
-    docker tag java-app demo-app:java-1.0
-    
+CI/CD workflow:
+1. Build with Gradle
+2. Build Docker image
+3. Push Docker image to Docker Hub
+4. TBD: Deploy Docker container to Github Pages directly..
+5. Build Jekyll page
+6. Deploy page to Github Pages
